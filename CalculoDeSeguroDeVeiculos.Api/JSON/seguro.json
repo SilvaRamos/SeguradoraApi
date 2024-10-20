@@ -1,0 +1,6 @@
+{
+	"seguro": [
+		"segurado": {"Nome":"Alfredo", "CPF":"321.321.321-31", "Idade": 40},
+		"veiculo" : {"Marca": "Vertigo", "Modelo": "Retratil", "Valor":20000}
+	]
+}

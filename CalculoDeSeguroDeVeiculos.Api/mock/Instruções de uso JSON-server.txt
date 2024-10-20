@@ -1,0 +1,5 @@
+para instalar o servidor:
+	npm i json-server -D	
+
+para executar o servidor:
+	json-server --watch server.json

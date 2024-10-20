@@ -1,0 +1,8 @@
+{
+    "/CalculoDeSeguroDeVeiculos/*":{
+        "target": "http://localhost:5077",
+        "secure": false,
+        "logLevel":"debug",
+        "changeOrigin": true
+    }
+}

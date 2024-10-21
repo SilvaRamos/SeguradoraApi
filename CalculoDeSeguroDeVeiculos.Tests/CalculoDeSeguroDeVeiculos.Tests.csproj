@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CalculoDeSeguroDeVeiculos.Api\CalculoDeSeguroDeVeiculos.csproj" />
+    <ProjectReference Include="..\CalculoDeSeguroDeVeiculos.Api\CalculoDeSeguroDeVeiculos.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

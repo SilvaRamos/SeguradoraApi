@@ -22,6 +22,11 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="Repository\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalculoDeSeguroDeVeiculos.Infra.Ioc\CalculoDeSeguroDeVeiculos.Infra.Ioc.csproj" />
   </ItemGroup>
 
 </Project>

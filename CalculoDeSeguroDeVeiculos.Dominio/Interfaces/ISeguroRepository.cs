@@ -1,12 +1,10 @@
-﻿using CalculoDeSeguroDeVeiculos.Api.Model;
-using CalculoDeSeguroDeVeiculos.Controllers;
+﻿using CalculoDeSeguroDeVeiculos.Dominio.Models;
 
-namespace CalculoDeSeguroDeVeiculos.Repository.Interfaces
+namespace CalculoDeSeguroDeVeiculos.Dominio.Interfaces
 {
     public interface ISeguroRepository
     {
         List<SeguroModel> ListaTodos();
-        //List<SeguroModel> ListaPorCpf(string cpf);
         SeguroModel ListaPorId(Guid idSegurado);
         List<Decimal> listaTodosOsValores();
         void Grava(SeguroModel seguro);

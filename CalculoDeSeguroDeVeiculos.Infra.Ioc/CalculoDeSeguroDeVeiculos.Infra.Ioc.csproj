@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalculoDeSeguroDeVeiculos.Aplicacao\CalculoDeSeguroDeVeiculos.Aplicacao.csproj" />
+    <ProjectReference Include="..\CalculoDeSeguroDeVeiculos.Dominio\CalculoDeSeguroDeVeiculos.Dominio.csproj" />
+    <ProjectReference Include="..\CalculoDeSeguroDeVeiculos.Infra.Data\CalculoDeSeguroDeVeiculos.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

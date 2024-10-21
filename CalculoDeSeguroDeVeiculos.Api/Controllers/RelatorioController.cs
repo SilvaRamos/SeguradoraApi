@@ -1,5 +1,5 @@
-﻿using CalculoDeSeguroDeVeiculos.Api.Model;
-using CalculoDeSeguroDeVeiculos.Repository.Interfaces;
+﻿using CalculoDeSeguroDeVeiculos.Dominio.Interfaces;
+using CalculoDeSeguroDeVeiculos.Dominio.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CalculoDeSeguroDeVeiculos.Controllers

@@ -1,4 +1,5 @@
-﻿namespace CalculoDeSeguroDeVeiculos
+﻿namespace CalculoDeSeguroDeVeiculos.Aplicacao
+
 {
     public static class Calculos
     {

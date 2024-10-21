@@ -1,6 +1,6 @@
-﻿using CalculoDeSeguroDeVeiculos.Api.Model;
+﻿using CalculoDeSeguroDeVeiculos.Dominio.Models;
 
-namespace CalculoDeSeguroDeVeiculos
+namespace CalculoDeSeguroDeVeiculos.Aplicacao.DTOs
 {
     public class SeguroDto
     {

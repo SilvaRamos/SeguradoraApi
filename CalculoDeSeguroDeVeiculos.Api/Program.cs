@@ -1,6 +1,8 @@
 using CalculoDeSeguroDeVeiculos;
-using CalculoDeSeguroDeVeiculos.Data;
-using CalculoDeSeguroDeVeiculos.Repository.Interfaces;
+using CalculoDeSeguroDeVeiculos.Aplicacao.Interfaces;
+using CalculoDeSeguroDeVeiculos.Aplicacao.Services;
+using CalculoDeSeguroDeVeiculos.Dominio.Interfaces;
+using CalculoDeSeguroDeVeiculos.Infra.Data.Context;
 using CalculoDeSeguroDeVeiculos.Repository.Repositorios;
 using Microsoft.EntityFrameworkCore;
 

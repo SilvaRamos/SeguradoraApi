@@ -1,4 +1,4 @@
-﻿namespace CalculoDeSeguroDeVeiculos.Api.Model
+﻿namespace CalculoDeSeguroDeVeiculos.Dominio.Models
 {
     public class SeguroModel
     {

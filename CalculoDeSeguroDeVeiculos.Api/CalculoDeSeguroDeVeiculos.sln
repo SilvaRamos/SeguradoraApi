@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoDeSeguroDeVeiculos.Api", "CalculoDeSeguroDeVeiculos.Api.csproj", "{0692E7D6-B1D6-4CAE-A687-BE9CDFB74A3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoDeSeguroDeVeiculos.Tests", "..\CalculoDeSeguroDeVeiculos.Tests\CalculoDeSeguroDeVeiculos.Tests.csproj", "{04626CE5-90C8-4852-AC8E-2555A889D18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoDeSeguroDeVeiculos.Dominio", "..\CalculoDeSeguroDeVeiculos.Dominio\CalculoDeSeguroDeVeiculos.Dominio.csproj", "{7CB3D72F-F992-41DF-B45F-5B71AC519FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoDeSeguroDeVeiculos.Infra.Data", "..\CalculoDeSeguroDeVeiculos.Infra.Data\CalculoDeSeguroDeVeiculos.Infra.Data.csproj", "{A97CE7B1-C6CD-4709-BCB6-0F53F201261D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoDeSeguroDeVeiculos.Infra.Ioc", "..\CalculoDeSeguroDeVeiculos.Infra.Ioc\CalculoDeSeguroDeVeiculos.Infra.Ioc.csproj", "{E3EB3B29-A778-4627-9D3E-03A3EBA04CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoDeSeguroDeVeiculos.Aplicacao", "..\CalculoDeSeguroDeVeiculos.Aplicacao\CalculoDeSeguroDeVeiculos.Aplicacao.csproj", "{13186378-9CCC-4431-9C3F-91FEC65BC521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0692E7D6-B1D6-4CAE-A687-BE9CDFB74A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0692E7D6-B1D6-4CAE-A687-BE9CDFB74A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0692E7D6-B1D6-4CAE-A687-BE9CDFB74A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0692E7D6-B1D6-4CAE-A687-BE9CDFB74A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04626CE5-90C8-4852-AC8E-2555A889D18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04626CE5-90C8-4852-AC8E-2555A889D18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04626CE5-90C8-4852-AC8E-2555A889D18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04626CE5-90C8-4852-AC8E-2555A889D18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB3D72F-F992-41DF-B45F-5B71AC519FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB3D72F-F992-41DF-B45F-5B71AC519FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB3D72F-F992-41DF-B45F-5B71AC519FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB3D72F-F992-41DF-B45F-5B71AC519FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97CE7B1-C6CD-4709-BCB6-0F53F201261D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97CE7B1-C6CD-4709-BCB6-0F53F201261D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97CE7B1-C6CD-4709-BCB6-0F53F201261D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97CE7B1-C6CD-4709-BCB6-0F53F201261D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EB3B29-A778-4627-9D3E-03A3EBA04CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EB3B29-A778-4627-9D3E-03A3EBA04CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EB3B29-A778-4627-9D3E-03A3EBA04CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EB3B29-A778-4627-9D3E-03A3EBA04CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13186378-9CCC-4431-9C3F-91FEC65BC521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13186378-9CCC-4431-9C3F-91FEC65BC521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13186378-9CCC-4431-9C3F-91FEC65BC521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13186378-9CCC-4431-9C3F-91FEC65BC521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {088974F7-9C3F-45B5-AA94-A8F01C57966D}
+	EndGlobalSection
+EndGlobal

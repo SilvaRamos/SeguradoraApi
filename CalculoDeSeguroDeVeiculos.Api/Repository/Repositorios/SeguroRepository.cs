@@ -1,6 +1,6 @@
-﻿using CalculoDeSeguroDeVeiculos.Api.Model;
-using CalculoDeSeguroDeVeiculos.Data;
-using CalculoDeSeguroDeVeiculos.Repository.Interfaces;
+﻿using CalculoDeSeguroDeVeiculos.Dominio.Interfaces;
+using CalculoDeSeguroDeVeiculos.Dominio.Models;
+using CalculoDeSeguroDeVeiculos.Infra.Data.Context;
 using System.Collections.Generic;
 using System.Linq;
 

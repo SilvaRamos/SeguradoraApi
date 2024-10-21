@@ -1,4 +1,6 @@
-﻿namespace CalculoDeSeguroDeVeiculos
+﻿using CalculoDeSeguroDeVeiculos.Aplicacao.DTOs;
+
+namespace CalculoDeSeguroDeVeiculos.Aplicacao.Interfaces
 {
     public interface ISeguroService
     {

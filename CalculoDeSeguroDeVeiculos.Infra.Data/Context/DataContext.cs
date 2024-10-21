@@ -1,8 +1,8 @@
-﻿using CalculoDeSeguroDeVeiculos.Api.Model;
+﻿using CalculoDeSeguroDeVeiculos.Dominio.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography.X509Certificates;
 
-namespace CalculoDeSeguroDeVeiculos.Data
+namespace CalculoDeSeguroDeVeiculos.Infra.Data.Context
+
 {
     public class DataContext : DbContext
     {

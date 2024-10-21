@@ -1,7 +1,7 @@
-﻿using CalculoDeSeguroDeVeiculos.Api.Model;
+﻿using CalculoDeSeguroDeVeiculos.Dominio.Models;
 using RestSharp;
 
-namespace CalculoDeSeguroDeVeiculos
+namespace CalculoDeSeguroDeVeiculos.Aplicacao.Services
 {
     public class SeguradoClient
     {

@@ -53,9 +53,9 @@ namespace CalculoDeSeguroDeVeiculos.Api.Controllers
         {
             List<Decimal> valores = _seguroRepository.listaTodosOsValores();
 
-            decimal mediaAritmeticaDoSeguros = Calculos.calculaMediaAritmetica(valores);
+            string mediaAritmeticaDoSeguros = Calculos.calculaMediaAritmetica(valores).ToString();
 
-            string relatorio = "{ 'titulo':'Relatório de Seguros', 'mediaAritmeticaSeguros':"+ mediaAritmeticaDoSeguros +"}";
+            string relatorio = "{\"mediaAritmeticaSeguros\": \" " +  mediaAritmeticaDoSeguros+ " \"}";
 
             return Ok(relatorio);
         }

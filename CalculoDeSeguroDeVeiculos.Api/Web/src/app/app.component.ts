@@ -17,10 +17,18 @@ import { RelatorioService } from './services/relatorio.service';
 })
 export class AppComponent implements OnInit{
   title = 'Calculo DeSeguro De Veiculos, Relatório Média Aritmética dos Seguros';
+  mediaAritmeticaSeguros!:string;
+
   tabela!:any;
 
   ngOnInit(): void {
-      this.tabela = this.relatorioService.getRelatorioSeguros();
+     
+    let relatorioSeguros = this.relatorioService.getRelatorioSeguros();
+
+    console.log("111111:"+relatorioSeguros);
+
+    // let respostaJson = JSON.parse(resposta);    
+    this.mediaAritmeticaSeguros = relatorioSeguros['mediaAritmeticaSeguros'];
   }
 
   constructor(private relatorioService : RelatorioService)

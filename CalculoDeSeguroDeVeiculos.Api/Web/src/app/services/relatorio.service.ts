@@ -12,13 +12,10 @@ export class RelatorioService {
 
   getRelatorioSeguros(): any{
 
-    //this.httpClient.get<any>('http://localhost:5077/CalculoDeSeguroDeVeiculos/EmiteRelatorio')
     this.httpClient.get<any>('/CalculoDeSeguroDeVeiculos/EmiteRelatorio')
-    //this.httpClient.get<any>('https://localhost:7285/CalculoDeSeguroDeVeiculos/EmiteRelatorio')
     .subscribe(data => {
-      console.log("CERTO!");
-      return data;
+      console.log("DATA:" + data['mediaAritmeticaSeguros']);
+      return data['mediaAritmeticaSeguros'];
     });
-    
   }
 }

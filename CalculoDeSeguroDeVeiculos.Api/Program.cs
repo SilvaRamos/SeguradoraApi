@@ -34,7 +34,18 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
+
 app.UseAuthorization();
+
+app.UseDefaultFiles();
+
+app.UseStaticFiles();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapFallbackToController("index", "FallBack");
+});
 
 app.MapControllers();
 

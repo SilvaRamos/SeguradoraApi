@@ -12,10 +12,19 @@ export class RelatorioService {
 
   getRelatorioSeguros(): any{
 
-    this.httpClient.get<any>('/CalculoDeSeguroDeVeiculos/EmiteRelatorio')
-    .subscribe(data => {
-      console.log("DATA:" + data['mediaAritmeticaSeguros']);
-      return data['mediaAritmeticaSeguros'];
-    });
+    // return this._http.get('http://date.jsontest.com')  
+    //  .map(res=> res.json()
+    // ); 
+
+
+    return this.httpClient.get('/CalculoDeSeguroDeVeiculos/EmiteRelatorio');
+    
+
+        // this.httpClient.get<any>('/CalculoDeSeguroDeVeiculos/EmiteRelatorio')
+    // .subscribe(data => {
+    //   console.log("DATA:" + data['mediaAritmeticaSeguros']);
+    //   return data['mediaAritmeticaSeguros'];
+    // });
+
   }
 }
